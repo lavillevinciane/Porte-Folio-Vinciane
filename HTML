@@ -1,0 +1,743 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+
+  <!-- Adaptation aux téléphones -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Portfolio - Vinciane LAVILLE</title>
+
+  <!-- Fichier CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+
+  <!-- =========================================
+       MENU
+  ========================================= -->
+
+  <header class="header">
+
+    <nav class="navbar">
+
+      <div class="logo">
+        VL.
+      </div>
+
+      <div class="nav-links">
+
+        <a href="#accueil">Accueil</a>
+
+        <a href="#apropos">À propos</a>
+
+        <a href="#competences">Compétences</a>
+
+        <a href="#parcours">Parcours</a>
+
+        <a href="#projets">Projets</a>
+
+        <a href="#contact">Contact</a>
+
+      </div>
+
+    </nav>
+
+  </header>
+
+
+  <!-- =========================================
+       CONTENU PRINCIPAL
+  ========================================= -->
+
+  <main>
+
+
+    <!-- =========================================
+         ACCUEIL
+    ========================================= -->
+
+    <section id="accueil" class="hero">
+
+
+      <!-- TEXTE DE PRÉSENTATION -->
+
+      <div class="hero-text">
+
+        <p class="small-title">
+          PORTFOLIO ÉTUDIANT
+        </p>
+
+
+        <h1>
+
+          <span class="red-title">
+            Bonjour, je suis
+          </span>
+
+          <br>
+
+          <span class="green-title">
+            Vinciane LAVILLE
+          </span>
+
+        </h1>
+
+
+        <p class="hero-description">
+          Étudiante en école de commerce, je m'intéresse
+          au marketing, à la communication et à la gestion
+          de projets.
+        </p>
+
+
+        <div class="buttons">
+
+
+          <!--
+            BOUTON POUR AJOUTER LA PHOTO
+
+            Quand tu cliques dessus,
+            tu peux choisir une photo
+            directement depuis ton ordinateur.
+          -->
+
+          <label
+            for="photoInput"
+            class="button button-green"
+          >
+            Ajouter ma photo
+            
+          </label>
+
+
+          <!--
+            Champ permettant de sélectionner une image.
+            Il est caché car le bouton ci-dessus l'ouvre.
+          -->
+
+          <input
+            type="file"
+            id="photoInput"
+            accept="image/*"
+            hidden
+          >
+
+
+          <a
+            href="#contact"
+            class="button button-outline"
+          >
+            Me contacter
+          </a>
+
+        </div>
+
+      </div>
+
+
+      <!-- =========================================
+           CADRE DE LA PHOTO
+      ========================================= -->
+
+      <div class="photo-container">
+      
+
+    
+
+
+        <!--
+          Ta photo apparaîtra ici automatiquement
+          après avoir cliqué sur "Ajouter ma photo".
+        -->
+
+        <img
+          id="profilePhoto"
+          src="ma photo.png"
+          alt="Photo de profil de Vinciane LAVILLE"
+          class="profile-photo"
+        >
+
+
+        <!-- Message affiché avant de choisir la photo -->
+
+        <div
+          id="photoMessage"
+          class="photo-message"
+        >
+          Ajoutez votre photo
+        </div>
+
+
+      </div>
+
+    </section>
+
+
+
+    <!-- =========================================
+         À PROPOS
+    ========================================= -->
+
+    <section id="apropos" class="section">
+
+      <div class="section-title">
+
+        <p>
+          MON PROFIL
+        </p>
+
+        <h2>
+          À propos de moi
+        </h2>
+
+      </div>
+
+
+      <div class="about-grid">
+
+
+        <article class="info-card">
+
+          <span>01</span>
+
+          <h3>
+            Formation
+          </h3>
+
+          <p>
+            Étudiante en école de commerce, je développe
+            mes compétences en gestion, marketing
+            et communication.
+          </p>
+
+        </article>
+
+
+        <article class="info-card">
+
+          <span>02</span>
+
+          <h3>
+            Qualités
+          </h3>
+
+          <p>
+            Organisée, sérieuse, créative et motivée,
+            j'aime apprendre et travailler sur de
+            nouveaux projets.
+          </p>
+
+        </article>
+
+
+        <article class="info-card">
+
+          <span>03</span>
+
+          <h3>
+            Langues
+          </h3>
+
+          <p>
+            Français : langue maternelle<br>
+            Anglais : niveau scolaire<br>
+            Allemand : notions
+          </p>
+
+        </article>
+
+
+        <article class="info-card">
+
+          <span>04</span>
+
+          <h3>
+            Outils
+          </h3>
+
+          <p>
+            Canva, PowerPoint, Excel, Word et outils
+            numériques de communication.
+          </p>
+
+        </article>
+
+
+        <article class="info-card">
+
+          <span>05</span>
+
+          <h3>
+            Centres d'intérêt
+          </h3>
+
+          <p>
+            Communication, mode, voyages, créativité,
+            culture et découverte de nouvelles expériences.
+          </p>
+
+        </article>
+
+
+        <article class="info-card">
+
+          <span>06</span>
+
+          <h3>
+            Objectifs
+          </h3>
+
+          <p>
+            Développer mon expérience professionnelle
+            et participer à des projets stimulants
+            et créatifs.
+          </p>
+
+        </article>
+
+
+      </div>
+
+    </section>
+
+
+
+    <!-- =========================================
+         COMPÉTENCES
+    ========================================= -->
+
+    <section
+      id="competences"
+      class="section beige-section"
+    >
+
+      <div class="section-title">
+
+        <p>
+          MON SAVOIR-FAIRE
+        </p>
+
+        <h2>
+          Mes compétences
+        </h2>
+
+      </div>
+
+
+      <div class="skills-container">
+
+
+        <div class="skill">
+
+          <div class="skill-header">
+
+            <span>
+              Communication
+            </span>
+
+            <span>
+              85%
+            </span>
+
+          </div>
+
+          <div class="skill-bar">
+
+            <div class="skill-progress progress-85"></div>
+
+          </div>
+
+        </div>
+
+
+        <div class="skill">
+
+          <div class="skill-header">
+
+            <span>
+              Marketing
+            </span>
+
+            <span>
+              80%
+            </span>
+
+          </div>
+
+          <div class="skill-bar">
+
+            <div class="skill-progress progress-80"></div>
+
+          </div>
+
+        </div>
+
+
+        <div class="skill">
+
+          <div class="skill-header">
+
+            <span>
+              Travail en équipe
+            </span>
+
+            <span>
+              90%
+            </span>
+
+          </div>
+
+          <div class="skill-bar">
+
+            <div class="skill-progress progress-90"></div>
+
+          </div>
+
+        </div>
+
+
+        <div class="skill">
+
+          <div class="skill-header">
+
+            <span>
+              Organisation
+            </span>
+
+            <span>
+              88%
+            </span>
+
+          </div>
+
+          <div class="skill-bar">
+
+            <div class="skill-progress progress-88"></div>
+
+          </div>
+
+        </div>
+
+
+      </div>
+
+    </section>
+
+
+
+    <!-- =========================================
+         PARCOURS
+    ========================================= -->
+
+    <section
+      id="parcours"
+      class="section"
+    >
+
+      <div class="section-title">
+
+        <p>
+          MON EXPÉRIENCE
+        </p>
+
+        <h2>
+          Mon parcours
+        </h2>
+
+      </div>
+
+
+      <div class="timeline">
+
+
+        <div class="timeline-item">
+
+          <div class="timeline-date">
+            2025 — Aujourd'hui
+          </div>
+
+          <div class="timeline-content">
+
+            <h3>
+              École de commerce
+            </h3>
+
+            <p>
+              Formation en management, marketing,
+              communication et gestion de projets.
+            </p>
+
+          </div>
+
+        </div>
+
+
+        <div class="timeline-item">
+
+          <div class="timeline-date">
+            2024 — 2025
+          </div>
+
+          <div class="timeline-content">
+
+            <h3>
+              Projet étudiant
+            </h3>
+
+            <p>
+              Participation à différents travaux
+              de groupe et projets de communication.
+            </p>
+
+          </div>
+
+        </div>
+
+
+        <div class="timeline-item">
+
+          <div class="timeline-date">
+            Expériences
+          </div>
+
+          <div class="timeline-content">
+
+            <h3>
+              Développement professionnel
+            </h3>
+
+            <p>
+              Développement de compétences en
+              organisation, présentation et travail
+              en équipe.
+            </p>
+
+          </div>
+
+        </div>
+
+
+      </div>
+
+    </section>
+
+
+
+    <!-- =========================================
+         PROJETS
+    ========================================= -->
+
+    <section
+      id="projets"
+      class="section beige-section"
+    >
+
+      <div class="section-title">
+
+        <p>
+          MES RÉALISATIONS
+        </p>
+
+        <h2>
+          Mes projets
+        </h2>
+
+      </div>
+
+
+      <div class="projects-grid">
+
+
+        <article class="project-card">
+
+          <div class="project-number">
+            01
+          </div>
+
+          <h3>
+            Projet marketing
+          </h3>
+
+          <p>
+            Création d'une stratégie marketing autour
+            d'un produit, avec réflexion sur la cible,
+            la communication et le positionnement.
+          </p>
+
+          <div class="tags">
+
+            <span>
+              Marketing
+            </span>
+
+            <span>
+              Stratégie
+            </span>
+
+            <span>
+              Communication
+            </span>
+
+          </div>
+
+        </article>
+
+
+        <article class="project-card">
+
+          <div class="project-number">
+            02
+          </div>
+
+          <h3>
+            Projet communication
+          </h3>
+
+          <p>
+            Conception d'une identité visuelle et
+            préparation d'une présentation destinée
+            à un public professionnel.
+          </p>
+
+          <div class="tags">
+
+            <span>
+              Créativité
+            </span>
+
+            <span>
+              Design
+            </span>
+
+            <span>
+              Présentation
+            </span>
+
+          </div>
+
+        </article>
+
+
+      </div>
+
+    </section>
+
+
+
+    <!-- =========================================
+         CITATION
+    ========================================= -->
+
+    <section class="quote-section">
+
+      <div class="quote">
+
+        <span class="quote-mark">
+          “
+        </span>
+
+        <p>
+          Chaque expérience est une occasion
+          d'apprendre, de progresser et de construire
+          son avenir.
+        </p>
+
+        <span class="quote-line"></span>
+
+        <small>
+          Vinciane LAVILLE
+        </small>
+
+      </div>
+
+    </section>
+
+
+
+    <!-- =========================================
+         CONTACT
+    ========================================= -->
+
+    <section
+      id="contact"
+      class="section contact-section"
+    >
+
+      <div class="section-title">
+
+        <p>
+          ÉCHANGEONS
+        </p>
+
+        <h2>
+          Me contacter
+        </h2>
+
+      </div>
+
+
+      <div class="contact-box">
+
+        <div>
+
+          <h3>
+            Un projet ? Une opportunité ?
+          </h3>
+
+          <p>
+            Je serais ravie d'échanger avec vous
+            et de discuter d'une éventuelle
+            opportunité professionnelle.
+          </p>
+
+        </div>
+
+
+        <!--
+          Remplace l'adresse ci-dessous
+          par ta véritable adresse e-mail.
+        -->
+
+        <a
+          href="mailto:votre-email@example.com"
+          class="button button-green"
+        >
+          Envoyer un e-mail
+        </a>
+
+      </div>
+
+    </section>
+
+  </main>
+
+
+
+  <!-- =========================================
+       FOOTER
+  ========================================= -->
+
+  <footer>
+
+    <p>
+      © <span id="year"></span>
+      Vinciane LAVILLE — Portfolio
+    </p>
+
+  </footer>
+
+
+
+  <!-- =========================================
+       JAVASCRIPT
+  ========================================= -->
+
+  <script src="script.js"></script>
+
+</body>
+
+</html>
